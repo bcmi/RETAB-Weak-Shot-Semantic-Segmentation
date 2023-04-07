@@ -1,0 +1,39 @@
+name: weak
+channels:
+  - pytorch
+  - conda-forge/label/cf201901
+  - conda-forge
+  - https://mirrors.ustc.edu.cn/anaconda/pkgs/free/
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free
+  - https://mirrors.ustc.edu.cn/anaconda/cloud/menpo/
+  - defaults
+dependencies:
+  - cudatoolkit=11.0.221
+  - numpy=1.17.3
+  - numpy-base=1.17.3
+  - pip=21.0.1
+  - python=3.6.7
+  - pytorch=1.7.1
+  - pip:
+    - click==7.1.2
+    - cython
+    - addict
+    - joblib==0.17.0
+    - scipy
+    - matplotlib
+    - mxnet==1.7.0.post1
+    - omegaconf==2.0.3
+    - opencv-python
+    - pandas==1.1.3
+    - pydensecrf==1.0rc3
+    - pyyaml
+    - scikit-image==0.17.2
+    - scipy==1.1.0
+    - tensorboard==2.2.2
+    - tensorboard-plugin-wit==1.7.0
+    - tensorboardx==2.1
+    - torchnet==0.0.4
+    - torchvision==0.8.2
+    - tqdm==4.29.0
+prefix: /home/user/anaconda3/envs/weak
