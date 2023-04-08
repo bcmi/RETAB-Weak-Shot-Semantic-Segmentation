@@ -1,4 +1,4 @@
-name: weak
+name: retab
 channels:
   - pytorch
   - conda-forge/label/cf201901
@@ -9,12 +9,11 @@ channels:
   - https://mirrors.ustc.edu.cn/anaconda/cloud/menpo/
   - defaults
 dependencies:
-  - cudatoolkit=11.0.221
-  - numpy=1.17.3
-  - numpy-base=1.17.3
+  - cudatoolkit=11.1
+  - numpy=1.19
   - pip=21.0.1
   - python=3.6.7
-  - pytorch=1.7.1
+  - pytorch=1.8.1
   - pip:
     - click==7.1.2
     - cython
@@ -36,4 +35,4 @@ dependencies:
     - torchnet==0.0.4
     - torchvision==0.8.2
     - tqdm==4.29.0
-prefix: /home/user/anaconda3/envs/weak
+prefix: /home/user/anaconda3/envs/retab

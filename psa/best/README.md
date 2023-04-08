@@ -1,0 +1,1 @@
+Please download [AffinityNet weights (ResNet-38)](https://drive.google.com/file/d/1xESB7017zlZHqxEWuh1Rb89UhjTGIKOA/view?usp=sharing), and put it under this directory.
