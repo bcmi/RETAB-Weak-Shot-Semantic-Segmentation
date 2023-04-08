@@ -12,7 +12,7 @@ Official PyTorch Implementation for **RETAB** (**R**egion **E**xpansion by **T**
 
 In this paper, we show that existing fully-annotated base categories can help segment objects of novel categories with only image-level labels, even if base categories and novel categories have no overlap. We refer to this task as weak-shot semantic segmentation, which could also be treated as WSSS with auxiliary fully-annotated categories. Based on the observation that semantic affinity and boundary are classagnostic, we propose a method called **RETAB** under the WSSS framework to transfer semantic affinity and boundary from base to novel categories. As a result, we find that pixel-level annotation of base categories can facilitate affinity learning and propagation, leading to higher-quality CAMs of novel categories.
 
-![RETAB](.github/RETAB.png)
+![RETAB](.github/RETAB.PNG)
 
 This repository takes the initial response (CAM) in [PSA](https://github.com/jiwoon-ahn/psa) as an example to illustrate the usage of our RETAB model. RETAB can be applied to any type of initial response. Since the usage of other initial responses are similar to CAM, we omit them here.
 
