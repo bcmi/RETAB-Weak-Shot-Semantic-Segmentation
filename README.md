@@ -22,7 +22,6 @@ This repository takes the initial response (CAM) in [PSA](https://github.com/jiw
 <table>
   <thead>
     <tr style="text-align: right;">
-      <th></th>
       <th>Fold</th>
       <th>Backbone</th>
       <th>Train all/base/movel mIoU of CAM</th>
