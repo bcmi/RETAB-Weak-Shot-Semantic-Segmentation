@@ -77,7 +77,7 @@ conda activate retab
 ```
 
 ## Data preparation
-Download [PASCAL VOC 2012 development kit](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/) and extra annotations from [SBD](https://www.dropbox.com/s/oeu149j8qtbs1x0/SegmentationClassAug.zip?dl=0). We expect the directory structure of the dataset (denoted by ```${VOC12HOME}```) to be the following:
+Download [PASCAL VOC 2012 development kit](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/) and extra annotations from [SBD](https://www.dropbox.com/s/oeu149j8qtbs1x0/SegmentationClassAug.zip?dl=0). We expect the directory structure of the dataset (denoted by ```${VOC12HOME}```) to be:
 ```
 <VOC12HOME>
   Annotations/
