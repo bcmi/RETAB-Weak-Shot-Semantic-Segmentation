@@ -94,7 +94,7 @@ cd psa && ln -s ${VOC12HOME} VOC2012 && cd ..
 cd RETAB && ln -s ${VOC12HOME} VOC2012 && cd ..
 ```
 
-Following the category split rule in PASCAL-5i, which is commonly used in few-shot segmentation, we evenly divide the 20 foreground categories into four folds (Fold 0,1,2,3). Categories in each fold are regarded as 5 novel categories, and the remaining categories (including background) are regarded as 16 base categories. We further divide 10582 training samples into base samples and novel samples for each fold. The list of base/novel samples can be found at ```RETAB/voc12/trainaug_fold*_base.txt```/```RETAB/voc12/trainaug_fold*_novel.txt```.
+Following the category split rule in PASCAL-5i, which is commonly used in few-shot segmentation, we evenly divide the 20 foreground categories into four folds (Fold 0,1,2,3). Categories in each fold are regarded as 5 novel categories, and the remaining categories (including background) are regarded as 16 base categories. We further divide 10582 training samples into base samples and novel samples for each fold. The list of base samples and novel samples can be found at ```RETAB/voc12/trainaug_fold*_base.txt``` and ```RETAB/voc12/trainaug_fold*_novel.txt```, respectively.
 
 ## Use [PSA](https://github.com/jiwoon-ahn/psa) to generate & evaluate initial CAM
 Download [AffinityNet weights (ResNet-38)](https://drive.google.com/file/d/1xESB7017zlZHqxEWuh1Rb89UhjTGIKOA/view?usp=sharing), and put it under ```psa/best/``` to form ```psa/best/res38_cls.pth```. Then, run:
