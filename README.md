@@ -24,8 +24,8 @@ This repository takes the initial response (CAM) in [PSA](https://github.com/jiw
     <tr style="text-align: right;">
       <th>Fold</th>
       <th>Backbone</th>
-      <th>Train all/base/movel mIoU of CAM</th>
-      <th>Train all/base/movel mIoU of CAM+RETAB</th>
+      <th>Train all-/base-/novel-mIoU of CAM</th>
+      <th>Train all-/base-/novel-mIoU of CAM+RETAB</th>
       <th>Weights of RETAB</th>
     </tr>
   </thead>
